@@ -1,0 +1,1 @@
+{"name":"LineChart10","type":"LineChart","size":"One-third row","title":"Swap RAM Util","plugin":"linux","query":{"name":"lineChartMetric","select":["swap_RAMUtil"],"from":"snappyflow_read","where":"_plugin == linux AND _tag_appName == $value and _tag_Name == $value","time":"Last 1 day","histogram":"30m"}}

@@ -1,0 +1,1 @@
+{"name":"LineChart9","type":"LineChart","size":"One-third row","height":"","title":"RAM Util Breakdown","plugin":"linux","stacked":true,"dataPoints":"Off","dropdowns":[],"query":{"name":"lineChartMetric","select":["free","buffered","cached","used"],"from":"esd","where":"_tag_appName == $value AND _tag_Name == $value AND _plugin == linux","time":"Last 1 day","histogram":"30m"}}

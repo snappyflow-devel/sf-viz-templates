@@ -1,0 +1,1 @@
+{"name":"barChart1","type":"BarChart","size":2,"title":"Metrics Across Tables","dropdowns":[{"name":"d1","query":"Query1","type":"metrics"}],"query":{"name":"Query1","select":["datafree.term","datalen.term"],"from":"collectd","where":"_tag_instanceid == $value AND _tableName == *","time":"Last 1 month"}}

@@ -1,0 +1,1 @@
+{"name":"LineChart8","type":"LineChart","size":"One-third row","title":"TCP Stats","plugin":"linux","dataPoints":"Off","dropdowns":[],"query":{"name":"lineChartMetric","select":["tcpRetrans","tcpReset"],"from":"default","where":"_tag_appName == $value and _tag_Name == $value AND _plugin == linux","time":"Last 1 day","histogram":"30m"}}

@@ -1,0 +1,1 @@
+{"name":"Log1","type":"Log","size":1,"title":"Logs","plugin":"linux","uniqueLogs":true,"query":{"name":"logQuery","select":"*","from":"default","where":"_tag_appName == $value and _tag_Name == $value AND _plugin == linux AND level == DropDown1.$value","time":"Last 1 month","start_index":0,"size":50},"pagination":true}

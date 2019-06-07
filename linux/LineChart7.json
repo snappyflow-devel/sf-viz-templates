@@ -1,0 +1,1 @@
+{"name":"LineChart7","type":"LineChart","size":"One-third row","title":"Capacity Trend","plugin":"linux","dataPoints":"Off","dropdowns":[],"query":{"name":"lineChartMetric","select":["usage"],"from":"default","where":"_tag_appName == $value and _tag_Name == $value AND _plugin == linux","time":"Last 1 day","histogram":"30m"}}

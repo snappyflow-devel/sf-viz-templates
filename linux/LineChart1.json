@@ -1,0 +1,1 @@
+{"name":"LineChart1","type":"LineChart","size":"One-third row","query":{"name":"query_LineChart1","select":["CPUUtil"],"from":"default","where":"_plugin == linux AND _tag_appName == $value and _tag_Name == $value","time":"Last 1 day","histogram":"30m"},"title":"CPU Util","plugin":"linux"}

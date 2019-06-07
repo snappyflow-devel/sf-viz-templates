@@ -1,0 +1,1 @@
+{"name":"DropDown1","type":"DropDown","size":1,"label":"Log Level","plugin":"linux","query":{"name":"dropDownQuery","select":[],"from":"default","where":"_tag_appName == $value and _tag_Name == $value AND _plugin == linux AND level == *","time":"Last 1 month"}}

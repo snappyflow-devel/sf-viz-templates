@@ -1,0 +1,1 @@
+{"name":"trends1","type":"LineChart","size":2,"title":"Utilization","dropdowns":[{"name":"d1","query":"Query1","type":"metrics"}],"query":{"name":"Query1","select":["RAMUtil","CPUUtil"],"from":"testindex","where":"_plugin == linux AND _tag_instanceid == $value","time":"Last 1 month","histogram":"30ms"},"plugin":"linux"}
